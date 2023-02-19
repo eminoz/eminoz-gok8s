@@ -9,7 +9,7 @@ import (
 func main() {
 	app := fiber.New()
 	app.Get("/", func(c *fiber.Ctx) error {
-		return c.JSON("hello from go??")
+		return c.JSON("hello from go:)")
 	})
 
 	port := os.Getenv("PORT")
